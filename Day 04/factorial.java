@@ -7,12 +7,8 @@ public class factorial {
         int num = sc.nextInt();
         int f = 1;
         for (int i = 1; i <= num; i++) {
-            for(int j = 1; j <= i; j++){
-                f = f * j;
-            }
+            f = f*i;
             System.out.println(i + "!" + " = "  + f);
-            f = 1;
-        }
-        
+        }        
     }
 }
