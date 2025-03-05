@@ -5,8 +5,8 @@ class method {
     }
 }
 
-public class main {
-    public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args){
         method obj = new method();
         System.out.println(obj.add(3, 6));
     }
