@@ -7,6 +7,7 @@ class Num {
         System.out.println("Enter two numbers: ");
         a = in.nextInt();
         b = in.nextInt();
+        in.close();
     }
 }
 

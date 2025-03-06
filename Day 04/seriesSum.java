@@ -18,5 +18,7 @@ public class seriesSum {
             }
         }
         System.out.println("Sum of the Series is: " + sum);
+        sc.close();
+        
     }
 }

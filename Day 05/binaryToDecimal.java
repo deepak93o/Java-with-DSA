@@ -6,7 +6,7 @@ public class binaryToDecimal {
         int bNum = sc.nextInt();
         int ans = 0;
         int pw = 1;
-
+        sc.close();
         while(bNum > 0){
             int unitDigit = bNum % 10;
             ans += (unitDigit * pw);

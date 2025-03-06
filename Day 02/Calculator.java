@@ -5,6 +5,8 @@ public class Calculator {
 
         int ans = 0;
 
+        in.close();
+
         while(true) {
 
             //Take the operator from the user...

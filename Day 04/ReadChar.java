@@ -14,5 +14,6 @@ public class ReadChar {
         int q = sc.nextInt();
         System.out.print(p + " " + q);
         // System.out.println(q);
+        sc.close();
     }
 }

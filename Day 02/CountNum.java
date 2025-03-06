@@ -17,7 +17,7 @@ public class CountNum {
         System.out.print("Enter number which you want to check:");
         int check = in.nextInt();
         int count = 0;
-
+        in.close();
         while(n>0) {
             int rem = n%10;
             if(rem == check){

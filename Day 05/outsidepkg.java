@@ -1,10 +1,10 @@
-import package_java.pkg.App;
+// import package_java.pkg.App;
 import package_java.pkg.App2;
 
 public class outsidepkg {
     public static void main(String[] args) {
-        App obj = new App();
-        App2 obj2 = new App2();
+        // App obj = new App();
+        // App2 obj2 = new App2();
         // obj.sum();
 
         // System.out.println("Outside Pkg: " + obj2.str_1);

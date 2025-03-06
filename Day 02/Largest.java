@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class Largest {
     public static void main(String[] args) {
@@ -8,7 +7,7 @@ public class Largest {
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-
+        in.close();
         // if(a > b && a > c) {
         //     System.out.println(a + " 55is the largest number");
         // }
@@ -27,5 +26,6 @@ public class Largest {
         int max = Math.max(c, Math.max(a, b));
     
         System.out.println(max + " is the Largest number");
+        
     }
 }

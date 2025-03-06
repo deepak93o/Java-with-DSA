@@ -31,5 +31,6 @@ public class SwitchCases {
             default -> System.out.println("Invalid Input!!");
         }
 
+    in.close();
     }
 }

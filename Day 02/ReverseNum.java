@@ -16,5 +16,6 @@ public class ReverseNum {
             a = a * 10 + rem;
         }
         System.out.println(a);
+        in.close();
     }
 }

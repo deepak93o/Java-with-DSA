@@ -16,5 +16,6 @@ public class dToB {
             deciNum /=2;
         }
         System.out.println(ans);
+        sc.close();
     }
 }

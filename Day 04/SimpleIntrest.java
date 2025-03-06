@@ -16,8 +16,6 @@ public class SimpleIntrest {
         System.out.println("Principle: " + p + "\n" + "Rate: " + r + "\n" + "Time: " + t);
 
         System.out.println("Simple Interest: "+ interest);
-
-
-
+        sc.close();
     }
 }

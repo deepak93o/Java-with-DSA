@@ -7,7 +7,7 @@ public class Scop {
     
         {
             a = 30;
-            int c = 40;
+            int c = a + b;
             System.out.println("a inside the block: " +a);
             System.out.println("C is inside the block: " + c);
         }

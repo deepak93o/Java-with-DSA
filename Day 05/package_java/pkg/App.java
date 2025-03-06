@@ -11,8 +11,10 @@ public class App {
         int b = sc.nextInt();
 
         int Sum = a + b;
-
+        
+        sc.close();
         System.out.println("Sum from App.java: " + Sum);
+
     }
 }
 

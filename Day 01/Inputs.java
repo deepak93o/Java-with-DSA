@@ -6,6 +6,8 @@ public class Inputs {
         System.out.print("Enter your roll number: ");
         int rollno = input.nextInt();
         System.out.println("Roll Number is: " + rollno);
+
+        input.close();
     }
 }
  

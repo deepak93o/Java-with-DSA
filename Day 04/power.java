@@ -12,5 +12,6 @@ public class power {
             ans = ans * a;
         }
         System.out.println("a power b : " + ans);
+        sc.close();
     }
 }

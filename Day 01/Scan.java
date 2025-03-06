@@ -5,5 +5,7 @@ public class Scan {
         System.out.println("Hey how are you?");
         Scanner input = new Scanner(System.in);
         System.out.println(input.nextLine()); 
+
+        input.close();
     }
 }

@@ -9,6 +9,7 @@ public class factorial {
         for (int i = 1; i <= num; i++) {
             f = f*i;
             System.out.println(i + "!" + " = "  + f);
-        }        
+        }    
+        sc.close();    
     }
 }
